@@ -1,0 +1,31 @@
+<head>
+    <title>TicTacToe</title>
+</head>
+
+<body>
+    {{> ticTacToe}}
+</body>
+
+<template name="ticTacToe">
+    <h1>Tic Tac Toe</h1>
+    <table class='tictactoe'>
+        <tr>
+            <td class='spot0'>{{spot0}}</td>
+            <td class='spot1'>{{spot1}}</td>
+            <td class='spot2'>{{spot2}}</td>
+        </tr>
+        <tr>
+            <td class='spot3'>{{spot3}}</td>
+            <td class='spot4'>{{spot4}}</td>
+            <td class='spot5'>{{spot5}}</td>
+        </tr>
+        <tr>
+            <td class='spot6'>{{spot6}}</td>
+            <td class='spot7'>{{spot7}}</td>
+            <td class='spot8'>{{spot8}}</td>
+        </tr>
+    </table>
+    <input type="button" value="I want to be X" />
+    <input type="button" value="I want to be Y" />
+
+</template>
